@@ -1,0 +1,40 @@
+<style>
+.item{
+    padding: 10px;
+    background-color: orange;
+    font-size: 15px;
+}
+.item:hover{
+    background-color: lightgray;
+}
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-gap: 2px;
+
+}
+.header{
+    background-color: skyblue
+}
+</style>
+<h1>My files!</h1>
+<div class="container">
+    <div class="item header">name</div>
+    <div class="item header">size</div>
+    <div class="item header">date</div>
+        <% files.forEach(function(file){ %>
+            <a href="<%= file.name %>" class="item" download="<%= file.name %>">
+                <%=file.name%>
+            </a>
+
+
+            <div class="item">
+                    <%= file.size%> MB
+            </div>
+            <div class="item">
+                <%= file.Date.toLocaleDateString("en-US")%>
+            </div>
+            <% }) %>
+</div>
+
+
