@@ -4,10 +4,9 @@ Given a folder location, this app will spin-up a local server that will display 
 ### Why?
 Mostly a fun project but there is a problem its trying to solve.
 
-I do photoshop edit on my laptop and post it on instagram. 
-Originally once an edit is finished, it gets saved locally than gets uploaded to Google Drive. From mobiles phone, download the file from Google Drive and finally upload it to instagram
+To move files from Laptop to Phone I upload it to Google Drive than download it from pnone.
 
-Purpose of this project is to remove dependency on Google Drive. This server provies a simple web interface to download files saved on laptop to phones. additional benifits, anyone connected to same network can also download the files making it easy to share 1000s of files quickly between many people 
+Purpose of this project is to remove dependency on Google Drive. This server provies a simple web interface to download the files saved on a PC. additional benifits, anyone connected to same network can also download the files making it easy to share 1000s of files quickly between many people 
 
 ## Run it
 Prerequisites: Have [NodeJS](https://nodejs.org/en/) installed globally on the PC
