@@ -1,15 +1,14 @@
 ## What is it?
-Given a folder location, this app will spin-up a local server that will display all the files in that folder to download.
+When provided with a folder location, this application will launch a local server, allowing users to view and download all files within the specified directory.
 
 ### Why?
-Mostly a fun project but there is a problem its trying to solve.
+Primarily a fun side project, this project aims to address a specific issue. 
 
-To move files from Laptop to Phone I upload it to Google Drive than download it from pnone.
+Currently, the process of transferring files from a laptop to a phone involves uploading them to Google Drive and then downloading them onto the phone. The goal of this project is to eliminate the reliance on Google Drive. Instead, the server offers a straightforward web interface for downloading files stored on a PC. 
 
-Purpose of this project is to remove dependency on Google Drive. This server provies a simple web interface to download the files saved on a PC. additional benifits, anyone connected to same network can also download the files making it easy to share 1000s of files quickly between many people 
-
+Additionally, it provides the added benefit of allowing anyone connected to the same network to access and download the files, facilitating the swift sharing of files among multiple individuals.
 ## Run it
-Prerequisites: Have [NodeJS](https://nodejs.org/en/) installed globally on the PC
+Prerequisites: Have [NodeJS](https://nodejs.org/en/) installed
 Make a clone of this repository, edit the .env file so it points to the folder you want to download from. 
 install the node modules ``` npm install ``` from /root
 run the server using ```node .\app.js``` or ```nodemon .\app.js```
@@ -24,4 +23,4 @@ run the server using ```node .\app.js``` or ```nodemon .\app.js```
 
 
 ## Technology
-[NodeJS](https://nodejs.org/en/)] + [Express JS](https://expressjs.com/) + [ejs](https://ejs.co/)
+[NodeJS](https://nodejs.org/en/) + [Express JS](https://expressjs.com/) + [ejs](https://ejs.co/)
